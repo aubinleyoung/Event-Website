@@ -1,46 +1,46 @@
-const mobileMenu = document.querySelectorAll(".menu-button");
-const navActive = document.querySelector(".nav-active");
-const navList = document.querySelectorAll(".nal-list");
+const mobileMenu = document.querySelectorAll('.menu-button');
+const navActive = document.querySelector('.nav-active');
+const navList = document.querySelectorAll('.nal-list');
 
 mobileMenu.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    navActive.classList.toggle("display-nav");
+  btn.addEventListener('click', () => {
+    navActive.classList.toggle('display-nav');
   });
 });
 navList.forEach((list) => {
-  list.addEventListener("click", () => {
-    navActive.classList.remove("display-nav");
+  list.addEventListener('click', () => {
+    navActive.classList.remove('display-nav');
   });
 });
 // Members
 const table = [
   {
-    image: "assets/images/Aubin.jpg",
-    name: "Aubin Simpeze",
-    function: "CEO",
-    description: "Lorem ipsum dolor sit, amet consectetur ",
+    image: 'assets/images/Aubin.jpg',
+    name: 'Aubin Simpeze',
+    function: 'CEO',
+    description: 'Lorem ipsum dolor sit, amet consectetur ',
   },
   {
-    image: "assets/images/Angelic.jpg",
-    name: "Angelic Boye",
-    function: "Manager",
-    description: "Lorem ipsum dolor sit, amet consectetur ",
+    image: 'assets/images/Angelic.jpg',
+    name: 'Angelic Boye',
+    function: 'Manager',
+    description: 'Lorem ipsum dolor sit, amet consectetur ',
   },
   {
-    image: "assets/images/Marco.jpg",
-    name: "  Marcos Josh",
-    function: "Singer",
-    description: "Lorem ipsum dolor sit, amet consectetur ",
+    image: 'assets/images/Marco.jpg',
+    name: '  Marcos Josh',
+    function: 'Singer',
+    description: 'Lorem ipsum dolor sit, amet consectetur ',
   },
   {
-    image: "assets/images/Naomie.jpg",
-    name: "Naomie Brigth",
-    function: "Actor",
-    description: "Lorem ipsum dolor sit, amet consectetur ",
+    image: 'assets/images/Naomie.jpg',
+    name: 'Naomie Brigth',
+    function: 'Actor',
+    description: 'Lorem ipsum dolor sit, amet consectetur ',
   },
 ];
-const memberBlock = document.querySelector(".member-desktop");
-table.map((e) => {
+const memberBlock = document.querySelector('.member-desktop');
+table.map(() => {
   memberBlock.innerHTML = `  <!-- first member -->
  
      <div class="chess-bg-container">
@@ -105,4 +105,5 @@ table.map((e) => {
   </div>
   </div>
   `;
+  return memberBlock;
 });
