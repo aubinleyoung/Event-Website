@@ -72,14 +72,14 @@ li {
   z-index: 2000;
   background: url(assets/images/new-bg.jpg);
   width: 100%;
-  height: 20%;
+  height: 10%;
 
   /* padding: 15px 0px 0px 25px; */
 }
 
 .head-line-section {
   width: 100vw;
-  margin-top: 113px;
+  margin-top: 85px;
   background-image: url(assets/images/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -199,17 +199,18 @@ li {
 .member-image {
   width: 200px;
   height: 100px;
+  overflow: hidden;
 }
 
 .member-image img {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 80%;
 }
 
 /* the about page */
 .about-section {
   width: 100vw;
-  margin-top: 113px;
+  margin-top: 85px;
   background-image: url(assets/images/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
