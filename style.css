@@ -582,12 +582,13 @@ li {
   }
 
   .member-image {
-    width: 130px;
+    width: 120px;
     height: 120px;
+    overflow: hidden;
   }
 
   .member-image img {
-    height: 100%;
+    height: auto;
     width: 100%;
   }
 
