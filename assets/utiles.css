@@ -1,17 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 .bold {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
-  color: #000;
-}
-
-.light {
-  font-family: 'Lato', sans-serif;
-}
-
-.semi-bold {
-  font-family: 'Lato', sans-serif;
 }
 
 .white {
@@ -19,10 +10,6 @@
 }
 
 .italic {
-  font-family: 'Lato', sans-serif;
-}
-
-.bold2 {
   font-family: 'Lato', sans-serif;
 }
 

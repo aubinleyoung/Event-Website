@@ -53,8 +53,9 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-[Live Demo Link](Not yet available)
-[Project requirements Link](Not yet available)
+- [Live Demo Link](https://aubinleyoung.github.io/Event-Website/)
+- [Video description link](https://www.loom.com/share/87f765beddc2458b81db9225d9315f58)
+- [Project requirements Link](Not yet available)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->

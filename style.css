@@ -5,8 +5,9 @@
   /* border: 1px solid red; */
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Lato:ital,wght@0,300;0,400;0,900;1,900&display=swap');
 
 a {
   text-decoration: none;
@@ -94,8 +95,10 @@ li {
 }
 
 .big-title {
-  font-family: 'Lato', sans-serif;
   color: #ec5242;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /* Event Section  */
@@ -128,10 +131,12 @@ li {
 .event-block {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .event-title {
   color: #ff4f38;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .event-button {
@@ -206,7 +211,10 @@ li {
 }
 
 .about-title {
-  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .about-text {
@@ -252,33 +260,26 @@ li {
 
 .past-pictures-one {
   height: 30vh;
+  background-image: url(assets/images/promo.jpg);
+  background-size: cover;
+}
+
+.overlayer {
+  width: 100%;
+  height: 100%;
+  background-color: #ec5342c8;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
-
-  /* background-image: url(assets/images/promo.jpg); */
-  background-color: #ec5242;
-  background-size: cover;
-
-  /* filter: grayscale(100%); */
 }
 
 .past-pictures-two {
   height: 30vh;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-
-  /* background-image: url(assets/images/Meilleur\ Voeux.jpg); */
-  background-color: #ec5242;
+  background-image: url(assets/images/Meilleur\ Voeux.jpg);
   background-size: cover;
-
-  /* filter: grayscale(100%); */
 }
 
 .clear-text {
@@ -350,8 +351,6 @@ li {
 @media only screen and (min-width: 768px) {
   * {
     margin: 0;
-
-    /* border: 1px solid red; */
   }
 
   a {
@@ -455,9 +454,10 @@ li {
   }
 
   .big-title {
-    font-family: 'Lato', sans-serif;
     color: #ec5242;
+    font-weight: 800;
     font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   .headline-p {
@@ -506,6 +506,7 @@ li {
 
   .event-title {
     color: #ff4f38;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   .event-button {
@@ -582,7 +583,7 @@ li {
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
-    padding: 80px 0 80px 0;
+    padding: 80px 0 10px 0;
     gap: 20px;
     justify-content: center;
     text-align: center;
@@ -590,10 +591,12 @@ li {
   }
 
   .about-title {
-    font-family: 'Lato', sans-serif;
     width: 50%;
     margin: auto;
-    font-size: 31px;
+    color: #ec5242;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   .hello-text {
@@ -645,41 +648,33 @@ li {
   .past-desk {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px;
+    gap: 25px;
     justify-content: center;
     margin: auto;
   }
 
   .past-pictures-one {
     height: 30vh;
-    width: 300px;
+    background-image: url(assets/images/promo.jpg);
+    background-size: cover;
+  }
+
+  .overlayer {
+    width: 100%;
+    height: 100%;
+    background-color: #ec5342c8;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
-
-    /* background-image: url(assets/images/promo.jpg); */
-    background-color: #ec5242;
-    background-size: cover;
-
-    /* filter: grayscale(100%); */
+    padding: 10px;
   }
 
   .past-pictures-two {
     height: 30vh;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-
-    /* background-image: url(assets/images/promo.jpg); */
-    background-color: #ec5242;
+    background-image: url(assets/images/Meilleur\ Voeux.jpg);
     background-size: cover;
-
-    /* filter: grayscale(100%); */
   }
 
   .clear-text {
@@ -724,7 +719,7 @@ li {
 
   .partner-title {
     width: fit-content;
-    color: #414246;
+    color: #57595f;
   }
 
   .underline {
