@@ -73,9 +73,6 @@ li {
   background: url(assets/images/new-bg.jpg);
   width: 100%;
   height: 15vh;
-
-
-  /* padding: 15px 0px 0px 25px; */
 }
 
 .head-line-section {
@@ -712,8 +709,6 @@ li {
     font-weight: bold;
     z-index: 1;
     font-size: 20px;
-
-    /* background-color: black; */
   }
 
   /* Partner section */
