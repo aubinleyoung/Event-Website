@@ -40,70 +40,28 @@ const table = [
   },
 ];
 const memberBlock = document.querySelector('.member-desktop');
-table.map(() => {
-  memberBlock.innerHTML = `  <!-- first member -->
+table.forEach((m) => {
+  memberBlock.innerHTML += `  <!-- first member -->
  
      <div class="chess-bg-container">
+
      <img src="assets/icones/chess.jpg" alt="chess-bg" class="chess-bg" >
+
      <div class="member">
-     <div class="member-image">
 
-      
-     <img src="${table[0].image}" alt="aubin" >
+        <div class="member-image">
+     <img src="${m.image}" alt="aubin" >
        </div>
+
        <div class="member-info">
-           <h3>${table[0].name}</h3>
-           <em class="orange italic">${table[0].function}</em>
-           <p>${table[0].description}</p>
+           <h3>${m.name}</h3>
+           <em class="orange italic">${m.function}</em>
+           <p>${m.description}</p>
        </div>
+
    </div>
-     </div>
+   </div>
 
-  
-   <!-- second member -->
-   <div class="chess-bg-container">
-   <img src="assets/icones/chess.jpg" alt="chess-bg" class="chess-bg" >
-   <div class="member">
-      <div class="member-image">
-          <img src="${table[1].image}" alt="auinleyoung" >
-      </div>
-      <div class="member-info">
-      <h3>${table[1].name}</h3>
-          <em class="orange italic">${table[1].function}</em>
-          <p>${table[1].description}</p>
-      </div>
-  </div>
-  </div>
-
-
-   <!-- third member -->
-   <div class="chess-bg-container">
-   <img src="assets/icones/chess.jpg" alt="chess-bg" class="chess-bg" >
-   <div class="member">
-      <div class="member-image">
-          <img src="${table[2].image}" alt="aubin" >
-      </div>
-      <div class="member-info">
-      <h3>${table[2].name}</h3>
-          <em class="orange italic">${table[2].function}</em>
-          <p>${table[2].description}</p>
-      </div>
-  </div>
-  </div>
-   <!-- fourth member -->
-   <div class="chess-bg-container">
-   <img src="assets/icones/chess.jpg" alt="chess-bg" class="chess-bg" >
-   <div class="member">
-      <div class="member-image">
-          <img src="${table[3].image}" alt="auinleyoung" >
-      </div>
-      <div class="member-info">
-          <h3>${table[3].name}</h3>
-          <em class="orange italic">${table[3].function}</em>
-          <p>${table[3].description}</p>
-      </div>
-  </div>
-  </div>
   `;
   return memberBlock;
 });

@@ -4,7 +4,10 @@
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
 }
-
+.gray{
+  color: #d3d3d3;
+  font-family: 'COCOGOOSE', sans-serif;
+}
 .white {
   color: white;
 }

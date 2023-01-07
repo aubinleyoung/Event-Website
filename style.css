@@ -5,9 +5,9 @@
   /* border: 1px solid red; */
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,700;1,900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Lato:ital,wght@0,300;0,400;0,900;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
 
 a {
   text-decoration: none;
@@ -71,10 +71,10 @@ li {
   top: 0;
   left: 0;
   z-index: 2000;
-  background-color: #fafafa;
+  background: url(assets/images/new-bg.jpg);
   width: 100%;
   height: 20%;
-
+  
   /* padding: 15px 0px 0px 25px; */
 }
 
@@ -98,7 +98,20 @@ li {
   color: #ec5242;
   font-weight: 800;
   font-size: 30px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+.small-title{
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #555555;
+  
+}
+.small-title-p{
+  color: #555555;
+}
+.headline-p {
+  border: 2px solid white;
+  padding: 10px;
+  background-color:#f7f7f7;
 }
 
 /* Event Section  */
@@ -214,13 +227,16 @@ li {
   color: #ec5242;
   font-weight: 800;
   font-size: 30px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
 }
-
+.hello-text{
+  color: #ec5242;
+}
 .about-text {
   background-color: white;
   padding: 20px;
   border: 1px solid rgb(128, 128, 128);
+
 }
 
 /* about-logo-section */
@@ -457,12 +473,20 @@ li {
     color: #ec5242;
     font-weight: 800;
     font-size: 45px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
   }
-
+  .small-title{
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #555555;
+    
+  }
+  .small-title-p{
+    color: #555555;
+  }
   .headline-p {
     border: 2px solid white;
     padding: 10px;
+    background-color:#f7f7f7;
   }
 
   /* Event Section  */
@@ -596,7 +620,7 @@ li {
     color: #ec5242;
     font-weight: 800;
     font-size: 40px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
   }
 
   .hello-text {
