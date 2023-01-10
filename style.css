@@ -360,9 +360,7 @@ li {
   display: none;
 }
 
-.partner-section-home-desk {
-  display: none;
-}
+
 
 /* Desktop version */
 @media only screen and (min-width: 768px) {
