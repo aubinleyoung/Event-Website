@@ -1,5 +1,6 @@
 # Event-Website
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+![](/assets/images/event-website.jpg)
 <a name="readme-top"></a>
 <!-- TABLE OF CONTENTS -->
 
