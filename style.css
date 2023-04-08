@@ -360,6 +360,14 @@ li {
   display: none;
 }
 
+  /* annimation */
+  .hidden{
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+  .show{
+    transform: translateX(0);
+  }
 
 
 /* Desktop version */
